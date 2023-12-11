@@ -1,0 +1,13 @@
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\SRXDLibraryReader.exe.config
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\SRXDLibraryReader.exe
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\SRXDLibraryReader.pdb
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\ChartHelper.Parsing.dll
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\ChartHelper.Types.dll
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\Newtonsoft.Json.dll
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\ChartHelper.Types.xml
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\bin\Debug\Newtonsoft.Json.xml
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\obj\Debug\SRXDLibraryReader.csproj.AssemblyReference.cache
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\obj\Debug\SRXDLibraryReader.csproj.CoreCompileInputs.cache
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\obj\Debug\SRXDLibraryReader.csproj.CopyComplete
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\obj\Debug\SRXDLibraryReader.exe
+C:\Users\gavin\source\repos\LibraryReader\LibraryReader\obj\Debug\SRXDLibraryReader.pdb

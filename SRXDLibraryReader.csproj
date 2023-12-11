@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7E22F12B-A09B-4B57-ACE2-AE4398EEDDCC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TempomapRepairTool</RootNamespace>
-    <AssemblyName>TempomapRepairTool</AssemblyName>
+    <RootNamespace>SRXDLibraryReader</RootNamespace>
+    <AssemblyName>SRXDLibraryReader</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ChartHelper.Parsing">
-      <HintPath>..\..\SRTBSplicer\libs\ChartHelper.Parsing.dll</HintPath>
+    <Reference Include="ChartHelper.Parsing, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\dependancies\ChartHelper.Parsing.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
