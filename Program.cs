@@ -12,14 +12,15 @@ namespace LibraryReader {
             string output = "# a list of all songs in your library, formatted as TITLE - ARTIST - CHARTER\n";
 
             SRTB curr;
-            bool ranged = false;
-            int min = 0, max = 99, count = 0;
-            if (args.Length > 0) {
-                min = Int32.Parse(args[0]);
-                ranged = true;
-            }
-            if (args.Length > 1)
-                max = Int32.Parse(args[1]);
+            int count = 0;
+            //bool ranged = false;
+            //int min = 0, max = 99
+            //if (args.Length > 0) {
+            //    min = Int32.Parse(args[0]);
+            //    ranged = true;
+            //}
+            //if (args.Length > 1)
+            //    max = Int32.Parse(args[1]);
             for (int i = 0; i < sourcePaths.Length; i++) {
                 try {
                     curr = SRTB.DeserializeFromFile(sourcePaths[i]);
@@ -50,7 +51,7 @@ namespace LibraryReader {
             using (StreamWriter outputFile = new StreamWriter(FileHelper.CustomPath + "\\song.txt")) {
                     outputFile.Write(output);
             }
-            Console.Write(count);
+            Console.Write("listing " + count + " charts in " + FileHelper.CustomPath + "\\song.txt\n(press any key to close)");
             Console.Read();
         }
     }
